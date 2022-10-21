@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-tailwind.png">
     <script src="js/main.js"></script>
+    <script>src="src/modal_controller.js"</script>
+
+
+
   </head>
   <body class="antialiased bg-body text-body font-body">
     <div class=""> 
@@ -299,19 +303,25 @@
         <div class="py-20 bg-gray-50 radius-for-skewed">
           <div class="container mx-auto px-4">
             <div class="mb-16 max-w-md mx-auto text-center">
+              
               <h2 class="text-4xl lg:text-5xl font-bold font-heading">Contact</h2>
               <p class="text-gray-500">Got any question? Let’s talk about it.</p>
             </div>
             <div class="flex flex-wrap -mx-4">
               <div class="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
-                <div class="py-12 lg:py-20 rounded bg-white shadow text-center">
-                  <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Office Location</h3>
-                  <p class="text-gray-400">Vision City</p>
-                  <p class="text-gray-400">Post Moresby, NCD</p>
+                <div class="py-12 lg:py-20 rounded bg-white shadow text-center align-items-center">
+                  <div class="flex justify-center">
+                    <svg width="50px"height="50px"id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.63 285.63"><defs><style>.cls-1{fill:#c3996b;}</style></defs><title>chat</title><path class="cls-1" d="M218.68,70.17C139.94,70.17,75.87,134.24,75.87,213A142,142,0,0,0,98,289.23l-21.4,53.51a9.53,9.53,0,0,0,12.38,12.38l53.5-21.4a142,142,0,0,0,76.25,22.08c78.75,0,142.82-64.07,142.82-142.82S297.43,70.17,218.68,70.17Zm0,266.59a123.05,123.05,0,0,1-69.79-21.59,9.55,9.55,0,0,0-8.92-1l-37.49,15,15-37.49a9.48,9.48,0,0,0-1-8.92,123.76,123.76,0,1,1,102.19,54Zm19-123.78a19,19,0,1,1-19-19A19.06,19.06,0,0,1,237.73,213Zm-57.13,0a19,19,0,1,1-19-19A19.06,19.06,0,0,1,180.6,213Zm114.25,0a19,19,0,1,1-19-19A19.06,19.06,0,0,1,294.85,213Z" transform="translate(-75.87 -70.17)"/></svg>
+                  </div>
+                  <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Message Us</h3>
+                    <button id="open"  class="inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-gray-700 text-gray-50 font-bold leading-loose transition duration-200">Show Message Form</button>
                 </div>
               </div>
               <div class="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
                 <div class="py-12 lg:py-20 rounded bg-white shadow text-center">
+                  <div class="flex justify-center">
+                    <svg height="50px" width="50px" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333.82 335.33"><defs><style>.cls-1{fill:#c3996b;}</style></defs><title>contact</title><path class="cls-1" d="M263.55,402.85a31.08,31.08,0,0,0,35.69-30.45V329.67h0a24.5,24.5,0,0,0-20.55-24.26l-49.31-8.24c-13.09-3-23.43,8.55-32.38,16.05a18.78,18.78,0,0,1-22.23,1.57A128.75,128.75,0,0,1,136.48,276a18.95,18.95,0,0,1,.53-21.7l13.61-18.38A24.66,24.66,0,0,0,155,216.76L146.9,173A24.62,24.62,0,0,0,122.71,153H78.89a30.78,30.78,0,0,0-30.7,33.35c4.65,55.54,35,187.82,215.35,216.55ZM65,171a18.66,18.66,0,0,1,13.88-6.09h43.81a12.63,12.63,0,0,1,12.41,10.31L143.26,219a12.67,12.67,0,0,1-2.26,9.83l-13.61,18.37a31,31,0,0,0-.9,35.45c21.61,30.21,50.73,61.61,78.26,39.76l12.43-10.54A12.53,12.53,0,0,1,227.41,309l49.31,8.23a12.57,12.57,0,0,1,10.54,12.45V372.4h0A19,19,0,0,1,265.43,391C93.4,363.63,64.55,238,60.13,185.3A18.57,18.57,0,0,1,65,171Z" transform="translate(-48.09 -67.87)"/><path class="cls-1" d="M136.74,144.78a6,6,0,0,0,6-6V96a16.28,16.28,0,0,1,.32-3.19L230,160.36l-62.77,44.15a6,6,0,0,0,6.89,9.8l66-46.44a30.36,30.36,0,0,0,32.47,0l84,59.12h0a16.39,16.39,0,0,1-2.79.28H170.88a6,6,0,0,0,0,12H353.8a28.15,28.15,0,0,0,28.11-28.11V96A28.27,28.27,0,0,0,353.8,67.87H158.86A28.27,28.27,0,0,0,130.75,96V138.8a6,6,0,0,0,6,6Zm232.87-52a16.28,16.28,0,0,1,.32,3.19V211.14a15.93,15.93,0,0,1-2.62,8.76l-84.63-59.54Zm-15.81-13A16.07,16.07,0,0,1,363,82.75l-94,73.09-1,.75h0a19,19,0,0,1-23.43-.05L149.67,82.75a16,16,0,0,1,9.19-2.91Z" transform="translate(-48.09 -67.87)"/></svg>
+                  </div>
                   <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Contacts</h3>
                   <p class="text-gray-400">askim@dzagoo.com</p>
                   <p class="text-gray-400">+675 75768424</p>
@@ -319,6 +329,9 @@
               </div>
               <div class="w-full lg:w-1/3 px-4 flex items-stretch">
                 <div class="py-12 lg:py-20 w-full rounded bg-white shadow text-center">
+                  <div class="flex justify-center">
+                    <svg heigth="50px" width="50px"id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284.82 307.17"><defs><style>.cls-1{fill:#c3996b;}</style></defs><title>socials</title><path class="cls-1" d="M105.67,270.26a48.46,48.46,0,0,0,38.48-18.69l99.71,57.55a44.15,44.15,0,0,0-2.2,13.93,49.49,49.49,0,1,0,49.48-49.49,49.23,49.23,0,0,0-41,22l-98.6-56.81a48.18,48.18,0,0,0,.37-35.93L252.29,144.9A49.43,49.43,0,0,0,341,114.84c0-27.12-22.37-49.48-49.86-49.48a49.51,49.51,0,0,0-49.48,49.48,51,51,0,0,0,2.93,16.87L144.15,190a49.4,49.4,0,1,0-38.48,80.27Zm185.47,18A34.82,34.82,0,1,1,256.32,323a35,35,0,0,1,34.82-34.82Zm0-208.2a34.82,34.82,0,1,1-34.82,34.82A35,35,0,0,1,291.14,80ZM105.67,186a34.83,34.83,0,1,1-34.83,34.82A35,35,0,0,1,105.67,186Z" transform="translate(-56.18 -65.36)"/></svg>
+                  </div>
                   <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Socials</h3>
                   <div class="flex justify-center">
                     <a class="mr-3" href="#">
@@ -347,7 +360,46 @@
           </svg>
         </div>
       </section>
-        
+        <!-- Overlay element -->
+    <div id="overlay" class="fixed hidden z-40 w-screen h-screen inset-0 bg-gray-900 bg-opacity-60"></div>
+<div id="dialog"  aria-hidden="true" class="align-items-center hidden mx-auto flex items-center justify-center fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
+  <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+      <!-- Modal content -->
+      <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+          <button id="close"type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white">
+              <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              <span class="sr-only">Close modal</span>
+          </button>
+          <div class="py-6 px-6 lg:px-8">
+              <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Send Quick Message</h3>
+              <form class="space-y-6" action="src/contact.php" method="post">
+                <div>
+                  <label for="subject" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                  <input type="text" name="subject" id="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Subject" required>
+              </div>
+              <div>
+                  <label for="name" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Full Name</label>
+                  <input type="text" name="name" id="name" placeholder="John Doe" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
+              </div>
+              <div>
+                <label for="number" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Phone Number</label>
+                <input type="number" name="number" id="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Phone Number" required>
+            </div>
+                  <div>
+                      <label for="email" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Email Address</label>
+                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required>
+                  </div>
+                  <div>
+                    <label for="message" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
+                    <textarea class="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-gray-100 rounded outline-none" name="message"type="text" placeholder="Message...">
+                    </textarea>
+                  </div>
+                  <button type="submit" class="w-full focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-green-600 hover:bg-gray-700 text-gray-50">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div> 
       <section>
         <div class="skew skew-top mr-for-radius">
           <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 10 0 10"></polygon></svg></div>
@@ -369,7 +421,6 @@
                   <li class="hidden md:block">
                     <svg class="mx-4 w-4 h-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
                   <li class="w-full md:w-auto mb-2 md:mb-0"><a class="lg:text-sm text-gray-400 hover:text-gray-300" href="#services">Services</a></li>
-                 
                 </ul></div>
             </div>
             <div class="mt-8 flex flex-wrap justify-between items-center">
@@ -391,6 +442,25 @@
           <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 10 10"></polygon></svg></div>
       </section>
     </div>
+       <!-- Javascript code -->
+       <script>
+        var openButton = document.getElementById('open');
+        var dialog = document.getElementById('dialog');
+        var closeButton = document.getElementById('close');
+        var overlay = document.getElementById('overlay');
+
+        // show the overlay and the dialog
+        openButton.addEventListener('click', function () {
+            dialog.classList.remove('hidden');
+            overlay.classList.remove('hidden');
+        });
+
+        // hide the overlay and the dialog
+        closeButton.addEventListener('click', function () {
+            dialog.classList.add('hidden');
+            overlay.classList.add('hidden');
+        });
+    </script>
   </body>
 </html>
 

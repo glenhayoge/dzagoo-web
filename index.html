@@ -17,19 +17,6 @@
     <meta name="theme-color" content="#ffffff">
 
     <script src="js/main.js"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.10.4/dist/cdn.min.js"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              clifford: '#da373d',
-            }
-          }
-        }
-      }
-    </script>
     <style>
        #myBtn {
       display: none;
@@ -40,7 +27,7 @@
       font-size: 18px;
       border: none;
       outline: none;
-      background-color: orange;
+      background-color:#cc9966;
       color: black;
       cursor: pointer;
       padding: 10px;
@@ -52,13 +39,14 @@
     }
 
     ion-icon {
-  color: white;
+  color: #fff;
+  --ionicon-stroke-width: 16px;
 }
     </style>
   </head>
 
   <body class="antialiased bg-body text-body font-body">
-    <button  onclick="topFunction()" id="myBtn" title="Go to top">Up</button> 
+    <button  onclick="topFunction()" id="myBtn" title="Go to top"><ion-icon name="chevron-up-outline"></ion-icon></button>
     <div class=""> 
       <section class="relative bg-gray-900 overflow-hidden"><img class="hidden lg:block absolute inset-0 w-full" src="atis-assets/background/lines.svg" alt=""><nav class="relative px-6 py-6 flex justify-between items-center"><a class="text-white text-3xl font-bold leading-none" href="#">
             <img class="h-12" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
@@ -112,8 +100,8 @@
                
             <div class="mt-auto">
               <div class="pt-6">
-                <button id="open"  class="inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-gray-700 text-gray-50 font-bold leading-loose transition duration-200">Message Us</button>
-                <!-- <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-gray-700 rounded-l-xl rounded-t-xl" href="#">Hire Our Service</a> -->
+               
+                <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-gray-700 rounded-l-xl rounded-t-xl" href="#contact">Contact Us</a>
               </div>
               <p class="my-4 text-xs text-center text-gray-400">
                 <span>© Dzagoo 2022 | Designed by <a href="https://glenh.me"><u>GlenH</u></a></span>
@@ -190,7 +178,7 @@
                 <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
                   <div>
                     <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded-lg bg-gray-800">
-                      <svg class="h-8 w-8 md:w-12 md:h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></span>
+                      <ion-icon size="large"name="apps-sharp"></ion-icon>
                   </div>
                   <div class="w-full lg:w-2/3">
                     <h3 class="mb-2 text-2xl font-bold font-heading">Mobile &amp; Web Development</h3>
@@ -202,7 +190,7 @@
                 <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
                   <div>
                     <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded-lg bg-gray-800">
-                      <svg class="h-8 w-8 md:w-12 md:h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg></span>
+                      <ion-icon size="large"name="code-working-sharp"></ion-icon>
                   </div>
                   <div class="w-full lg:w-2/3">
                     <h3 class="mb-2 text-2xl font-bold font-heading">RESTful API's</h3>
@@ -214,7 +202,7 @@
                 <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
                   <div>
                     <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <svg class="h-8 w-8 md:w-12 md:h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></span>
+                      <ion-icon size="large"name="bar-chart-sharp"></ion-icon>
                   </div>
                   <div class="w-full lg:w-2/3">
                     <h3 class="mb-2 text-2xl font-bold font-heading">Data & Information Systems </h3>
@@ -226,7 +214,7 @@
                 <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
                   <div>
                     <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <svg class="h-8 w-8 md:w-12 md:h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg></span>
+                      <ion-icon size="large"name="cloud-upload-sharp"></ion-icon>
                   </div>
                   <div class="w-full lg:w-2/3">
                     <h3 class="mb-2 text-2xl font-bold font-heading">Cloud Computing</h3>
@@ -239,7 +227,7 @@
                 <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
                   <div>
                     <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <svg class="h-8 w-8 md:w-12 md:h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></span>
+                      <ion-icon size="large"name="git-compare-sharp"></ion-icon>
                   </div>
                   <div class="w-full lg:w-2/3">
                     <h3 class="mb-2 text-2xl font-bold font-heading">Dev Ops</h3>
@@ -253,7 +241,7 @@
                 <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
                   <div>
                     <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <svg class="h-8 w-8 md:w-12 md:h-12 text-green-600" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg></span>
+                      <ion-icon size="large"name="images-sharp"></ion-icon>
                   </div>
                   <div class="w-full lg:w-2/3">
                     <h3 class="mb-2 text-2xl font-bold font-heading">Graphic Design Services</h3>
@@ -513,7 +501,7 @@
     </script>
     <script>
       //Get the button
-      var mybuttons = document.getElementById("myBtn");
+      var mybutton = document.getElementById("myBtn");
       
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function() {scrollFunction()};

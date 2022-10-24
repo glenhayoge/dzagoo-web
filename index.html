@@ -8,10 +8,53 @@
     <meta name="author" content="Glen Hayoge">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-tailwind.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <script src="js/main.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.10.4/dist/cdn.min.js"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+       #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 80px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: orange;
+      color: black;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    
+    #myBtn:hover {
+      background-color: #ccc;
+    }
+    </style>
   </head>
+
   <body class="antialiased bg-body text-body font-body">
+    <button  onclick="topFunction()" id="myBtn" title="Go to top">Up</button> 
     <div class=""> 
       <section class="relative bg-gray-900 overflow-hidden"><img class="hidden lg:block absolute inset-0 w-full" src="atis-assets/background/lines.svg" alt=""><nav class="relative px-6 py-6 flex justify-between items-center"><a class="text-white text-3xl font-bold leading-none" href="#">
             <img class="h-12" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
@@ -65,8 +108,9 @@
                
             <div class="mt-auto">
               <div class="pt-6">
-               
-                <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-gray-700 rounded-l-xl rounded-t-xl" href="#">Hire Our Service</a></div>
+                <button id="open"  class="inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-gray-700 text-gray-50 font-bold leading-loose transition duration-200">Message Us</button>
+                <!-- <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-gray-700 rounded-l-xl rounded-t-xl" href="#">Hire Our Service</a> -->
+              </div>
               <p class="my-4 text-xs text-center text-gray-400">
                 <span>© Dzagoo 2022 | Designed by <a href="https://glenh.me"><u>GlenH</u></a></span>
               </p>
@@ -320,7 +364,7 @@
                   </div>
                   <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Contacts</h3>
                   <p class="text-gray-400">mail at dzagoo.com</p>
-                  <p class="text-gray-400">+675 75768424</p>
+                  <p class="text-gray-400">+675 757 68424</p>
                 </div>
               </div>
               <div class="w-full lg:w-1/3 px-4 flex items-stretch">
@@ -438,6 +482,9 @@
           <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 10 10"></polygon></svg></div>
       </section>
     </div>
+
+        <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+ 
        <!-- Javascript code -->
        <script>
         var openButton = document.getElementById('open');
@@ -457,6 +504,27 @@
             overlay.classList.add('hidden');
         });
     </script>
+    <script>
+      //Get the button
+      var mybuttons = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
   </body>
 </html>
 

@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Dzagoo Digital Technologies</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Dzagoo Digital Technologies Website">
-    <meta name="author" content="Glen Hayoge">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
 
-    <script src="js/main.js"></script>
-    <style>
-       #myBtn {
+<head>
+  <title>Dzagoo Digital Technologies</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Dzagoo Digital Technologies Website">
+  <meta name="author" content="Glen Hayoge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <script src="js/main.js"></script>
+  <style>
+    #myBtn {
       display: none;
       position: fixed;
       bottom: 80px;
@@ -27,499 +28,718 @@
       font-size: 18px;
       border: none;
       outline: none;
-      background-color:#cc9966;
+      background-color: #cc9966;
       color: black;
       cursor: pointer;
       padding: 10px;
       border-radius: 10px;
     }
-    
+
     #myBtn:hover {
       background-color: #ccc;
     }
 
     ion-icon {
-  color: #fff;
-  --ionicon-stroke-width: 16px;
-}
-    </style>
-  </head>
+      color: #fff;
+      --ionicon-stroke-width: 16px;
 
-  <body class="antialiased bg-body text-body font-body">
-    <button  onclick="topFunction()" id="myBtn" title="Go to top"><ion-icon name="chevron-up-outline"></ion-icon></button>
-    <div class=""> 
-      <section class="relative bg-gray-900 overflow-hidden"><img class="hidden lg:block absolute inset-0 w-full" src="atis-assets/background/lines.svg" alt=""><nav class="relative px-6 py-6 flex justify-between items-center"><a class="text-white text-3xl font-bold leading-none" href="#">
-            <img class="h-12" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
-          <div class="lg:hidden">
-            <button class="navbar-burger flex items-center text-white p-3">
-              <svg class="block h-4 w-4 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Mobile menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
-          </div>
-          <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6"><li><a class="text-sm text-gray-300 hover:text-white" href="#">Home</a></li>
-            <li class="text-gray-800">
-              <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
-            <li><a class="text-sm text-white font-bold" href="#about">About Us</a></li>
-            <li class="text-gray-800">
-              <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
-            <li><a class="text-sm text-gray-300 hover:text-white" href="#services">Services</a></li>
-          </ul><a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-50 text-sm text-green-600 font-bold rounded-l-xl rounded-t-xl transition duration-200" href="#contact">Contact Us</a>
-        </nav><div class="relative pt-20">
-          <div class="container mx-auto px-4">
-            <div class="flex flex-wrap -mx-4">
-              <div class="w-full lg:w-1/2 px-4 mb-12 md:mb-20 lg:mb-0 flex items-center">
-                <div class="w-full text-center lg:text-left">
-                  <div class="max-w-md mx-auto lg:mx-0">
-                    <p class="mb-6 leading-loose text-gray-100">A Solutions Provider for</p>
-                    <h2 class="mb-3 text-4xl lg:text-5xl text-white font-bold">
-                      <span>ICT4D &amp; Digital </span>
-                      <span class="text-green-600">Development </span>
-                    </h2>
-                  </div>
-                  <div class="max-w-sm mx-auto lg:mx-0">
-                    <p class="mb-6 leading-loose text-gray-100">In Papua New Guinea</p>
-                    <div><a class="inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose bg-green-600 hover:bg-green-600 text-white font-semibold rounded-l-xl rounded-t-xl transition duration-200" href="#contact">Hire Our Service</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full lg:w-1/2 px-9 flex items-center justify-center">
-                <img src="images/dzagoo-mock-front.png" alt=""></div>
-            </div>
-          </div>
-        </div>
-        <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-          <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-          <nav class="relative flex flex-col py-6 px-6 h-full w-full bg-white border-r overflow-y-auto"><div class="flex items-center mb-8">
-              <a class="mr-auto text-3xl font-bold leading-none" href="#">
-                <img class="h-10" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
-              <button class="navbar-close">
-                <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></button>
-            </div>
-            <div>
-              <ul><li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Home</a></li>
-                <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#about">About Us</a></li>
-                <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#services">Services</a></li>
-               
-            <div class="mt-auto">
-              <div class="pt-6">
-               
-                <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-gray-700 rounded-l-xl rounded-t-xl" href="#contact">Contact Us</a>
-              </div>
-              <p class="my-4 text-xs text-center text-gray-400">
-                <span>© Dzagoo 2022 | Designed by <a href="https://glenh.me"><u>GlenH</u></a></span>
-              </p>
-              <div class="text-center">
-                <a class="inline-block px-1" href="https://www.facebook.com/dzagoodigital">
-                  <img src="atis-assets/social/facebook.svg" alt=""></a>
-                <a class="inline-block px-1" href="#">
-                  <img src="atis-assets/social/twitter.svg" alt=""></a>
-                <a class="inline-block px-1" href="#">
-                  <img src="atis-assets/social/instagram.svg" alt=""></a>
-              </div>
-  
-            </div>
-          </nav></div>
-      </section>
-        
-      <section id="about"><div class="skew skew-top mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 10 0 10"></polygon></svg></div>
-        <div class="skew skew-top ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 10 10 0 10 10"></polygon></svg></div>
-        <div class="py-20 bg-gray-50 radius-for-skewed">
-          <div class="container mx-auto px-4">
-            <div class="mb-10 flex flex-wrap">
-              <div class="mb-10 lg:mb-0 w-full">
-                <div class="items-center text-center">
-                  <span class="text-green-600 font-bold text-center">ABOUT DZAGOO DIGITAL TECHNOLOGIES</span>
-                  <h2 class="mb-2 text-4xl lg:text-5xl font-bold font-heading">Bridging the Digital Divide</h2>
-                  <p class="text-gray-500 leading-loose">Dzagoo is a digital solutions business in Papua New Guinea that is actively engaged in providing end-to-end Software Development and IT consultancy services accross broad spectrum of clientele. With a strong team of professionals having in-depth knowledge on the latest technologies and tools, Dzagoo intends to design and deliver technology driven solutions that can add power to businesses at the most competitive rates. We have our focus firmly on delivering desirable solutions within a quick turnaround and ensuring the highest level of client satisfaction.</p>
-                </div>
-              </div>
-              
-            </div>
-            <div class="flex flex-wrap -mx-4">
-              <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4 text-center">
-                <span class="mb-6 flex justify-center items-center rounded font-bold bg-green-600"><ion-icon size="large" name="flower-outline"></ion-icon></span>
-                <h3 class="mb-2 text-2xl font-bold font-heading">Vision</h3>
-                <p class="text-gray-500 leading-loose">To strive to become an
-                  entity in technology based corporate solutions, capable of demanding
-                  unconditional response from the targeted niche</p>
-              </div>
-              <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4 text-center">
-                <span class="mb-6 flex rounded font-bold text-center bg-green-600 justify-center items-center"><ion-icon size="large" name="leaf-outline"></ion-icon></span>
-                <h3 class="mb-2 text-2xl font-bold font-heading">Mission</h3>
-                <p class="text-gray-500 leading-loose">To contribute to forward-looking transformation of the
-                  society through software development & application of modern technologies</p>
-              </div>
-              <div class="w-full lg:w-1/3 px-4 text-center">
-                <span class="mb-6 flex justify-center items-center rounded font-bold bg-green-600"><ion-icon size="large"name="rose-outline"></ion-icon></span>
-                <h3 class="mb-2 text-2xl font-bold font-heading">Goal</h3>
-                <p class="text-gray-500 leading-loose">To deliver products successfully in the market and ultimately achieve business goals</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="skew skew-bottom mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 0 10"></polygon></svg></div>
-        <div class="skew skew-bottom ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 10 10"></polygon></svg></div>
-      </section>
-        
-      <section id="services"><div class="skew skew-top mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 10 0 10"></polygon></svg></div>
-        <div class="skew skew-top ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 10 10 0 10 10"></polygon></svg></div>
-        <div class="py-20 bg-gray-50 radius-for-skewed">
-          <div class="container mx-auto px-4">
-            <div class="mb-16 mx-auto text-center">
-              <span class="text-green-600 font-bold">OUR PROFESSIONAL</span>
-              <h2 class="text-4xl lg:text-5xl font-bold font-heading">Service Offerings</h2>
-            </div>
-            <div class="flex flex-wrap -mx-3">
-              <div class="mb-6 w-full lg:w-1/2 px-3">
-                <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
-                  <div>
-                    <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded-lg bg-gray-800">
-                      <ion-icon size="large"name="apps-sharp"></ion-icon>
-                  </div>
-                  <div class="w-full lg:w-2/3">
-                    <h3 class="mb-2 text-2xl font-bold font-heading">Mobile &amp; Web Development</h3>
-                    <p class="text-gray-500">We deliver modern mobile &amp; web apps such as e-commerce sites, single-page web applications (SPA) &amp; SaaS applications. We guarantee beautiful, user-friendly, apps that follow latest best practices.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-6 w-full lg:w-1/2 px-3">
-                <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
-                  <div>
-                    <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded-lg bg-gray-800">
-                      <ion-icon size="large"name="code-working-sharp"></ion-icon>
-                  </div>
-                  <div class="w-full lg:w-2/3">
-                    <h3 class="mb-2 text-2xl font-bold font-heading">RESTful API's</h3>
-                    <p class="text-gray-500">We build clean &amp; well-structured RESTful APIs. Our APIs are properly documented in accordance to the OpenAPI 2.0 specifications and implemented with automated tests coverage of at least 80%.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="mb-6 lg:mb-0 w-full lg:w-1/2 px-3">
-                <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
-                  <div>
-                    <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <ion-icon size="large"name="bar-chart-sharp"></ion-icon>
-                  </div>
-                  <div class="w-full lg:w-2/3">
-                    <h3 class="mb-2 text-2xl font-bold font-heading">Data & Information Systems </h3>
-                    <p class="text-gray-500">We design databases for our clients based on their unique needs using both proprietary software like ORACLE, MySQL, MS SQL and Open Source Software products like PostGre, and InnoDB.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="w-full lg:w-1/2 px-3">
-                <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
-                  <div>
-                    <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <ion-icon size="large"name="cloud-upload-sharp"></ion-icon>
-                  </div>
-                  <div class="w-full lg:w-2/3">
-                    <h3 class="mb-2 text-2xl font-bold font-heading">Cloud Computing</h3>
-                    <p class="text-gray-500">We build &amp; deploy applications &amp; API services to cloud infrastructures (Digital Ocean, GCP, AWS etc..). By using sensible configurations to ensure deployments are stable, accessible &amp; easily scalable.</p>
-                  </div>
-                </div>
-              </div>
 
-              <div class="mt-6 mb-6 lg:mb-0 w-full lg:w-1/2 px-3">
-                <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
-                  <div>
-                    <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <ion-icon size="large"name="git-compare-sharp"></ion-icon>
-                  </div>
-                  <div class="w-full lg:w-2/3">
-                    <h3 class="mb-2 text-2xl font-bold font-heading">Dev Ops</h3>
-                    <p class="text-gray-500">To facilitate Agile software development, we setup a CI/CD pipeline using automation & continuous
-                      integration tools to reduce the time spent between development & production. These tools include
-                      GitLab, Ansible, Docker, Travis CI, and Circle CI.</p>
-                  </div>
+    }
+
+    #preloader {
+      background: #2a2826 url(images/loader.gif) no-repeat center;
+      height: 100vh;
+      background-size: 30%;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+    }
+  </style>
+</head>
+
+<body class="antialiased bg-body text-body font-body">
+  <div id="preloader"></div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </button>
+  <div class="">
+    <section class="relative bg-gray-900 overflow-hidden"><img class="hidden lg:block absolute inset-0 w-full"
+        src="atis-assets/background/lines.svg" alt="">
+      <nav class="relative px-6 py-6 flex justify-between items-center"><a
+          class="text-white text-3xl font-bold leading-none" href="#">
+          <img class="h-12" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
+        <div class="lg:hidden">
+          <button class="navbar-burger flex items-center text-white p-3">
+            <svg class="block h-4 w-4 fill-current" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Mobile menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg></button>
+        </div>
+        <ul
+          class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
+          <li><a class="text-sm text-gray-300 hover:text-white" href="#">Home</a></li>
+          <li class="text-gray-800">
+            <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+              </path>
+            </svg></li>
+          <li><a class="text-sm text-white font-bold" href="#about">About Us</a></li>
+          <li class="text-gray-800">
+            <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+              </path>
+            </svg></li>
+          <li><a class="text-sm text-gray-300 hover:text-white" href="#services">Services</a></li>
+        </ul><a
+          class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-50 text-sm text-green-600 font-bold rounded-l-xl rounded-t-xl transition duration-200"
+          href="#contact">Contact Us</a>
+      </nav>
+      <div class="relative pt-20">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-12 md:mb-20 lg:mb-0 flex items-center">
+              <div class="w-full text-center lg:text-left">
+                <div class="max-w-md mx-auto lg:mx-0">
+                  <p class="mb-6 leading-loose text-gray-100">A Solutions Provider for</p>
+                  <h2 class="mb-3 text-4xl lg:text-5xl text-white font-bold">
+                    <span>ICT4D &amp; Digital </span>
+                    <span class="text-green-600">Development </span>
+                  </h2>
+                </div>
+                <div class="max-w-sm mx-auto lg:mx-0">
+                  <p class="mb-6 leading-loose text-gray-100">In Papua New Guinea</p>
+                  <div><a
+                      class="inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose bg-green-600 hover:bg-green-600 text-white font-semibold rounded-l-xl rounded-t-xl transition duration-200"
+                      href="#contact">Hire Our Service</a></div>
                 </div>
               </div>
-              <div class="w-full lg:w-1/2 px-3 mt-6">
-                <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
-                  <div>
-                    <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
-                      <ion-icon size="large"name="images-sharp"></ion-icon>
-                  </div>
-                  <div class="w-full lg:w-2/3">
-                    <h3 class="mb-2 text-2xl font-bold font-heading">Graphic Design Services</h3>
-                    <p class="text-gray-500">We provide graphic design & corporate branding services to build your product and services brands using three different perspectives:
-                      what you don’t know, what you think you know, and what you are willing to know.</p>
-                  </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-9 flex items-center justify-center">
+              <img src="images/dzagoo-mock-front.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav class="relative flex flex-col py-6 px-6 h-full w-full bg-white border-r overflow-y-auto">
+          <div class="flex items-center mb-8">
+            <a class="mr-auto text-3xl font-bold leading-none" href="#">
+              <img class="h-10" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
+            <button class="navbar-close">
+              <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <div>
+            <ul>
+              <li class="mb-1"><a
+                  class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded"
+                  href="#">Home</a></li>
+              <li class="mb-1"><a
+                  class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded"
+                  href="#about">About Us</a></li>
+              <li class="mb-1"><a
+                  class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded"
+                  href="#services">Services</a></li>
+
+              <div class="mt-auto">
+                <div class="pt-6">
+
+                  <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-gray-700 rounded-l-xl rounded-t-xl"
+                    href="#contact">Contact Us</a>
                 </div>
+                <p class="my-4 text-xs text-center text-gray-400">
+                  <span>© Dzagoo 2022 | Designed by <a href="https://glenh.me"><u>GlenH</u></a></span>
+                </p>
+                <div class="text-center">
+                  <a class="inline-block px-1" href="https://www.facebook.com/dzagoodigital">
+                    <img src="atis-assets/social/facebook.svg" alt=""></a>
+                  <a class="inline-block px-1" href="#">
+                    <img src="atis-assets/social/twitter.svg" alt=""></a>
+                  <a class="inline-block px-1" href="#">
+                    <img src="atis-assets/social/instagram.svg" alt=""></a>
+                </div>
+
               </div>
-              
+        </nav>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="skew skew-top mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-top ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
+        </svg></div>
+      <div class="py-20 bg-gray-50 radius-for-skewed">
+        <div class="container mx-auto px-4">
+          <div class="mb-10 flex flex-wrap">
+            <div class="mb-10 lg:mb-0 w-full">
+              <div class="items-center text-center">
+                <span class="text-green-600 font-bold text-center">ABOUT DZAGOO DIGITAL TECHNOLOGIES</span>
+                <h2 class="mb-2 text-4xl lg:text-5xl font-bold font-heading">Bridging the Digital Divide</h2>
+                <p class="text-gray-500 leading-loose">Dzagoo is a digital solutions business in Papua New Guinea that
+                  is actively engaged in providing end-to-end Software Development and IT consultancy services accross
+                  broad spectrum of clientele. With a strong team of professionals having in-depth knowledge on the
+                  latest technologies and tools, Dzagoo intends to design and deliver technology driven solutions that
+                  can add power to businesses at the most competitive rates. We have our focus firmly on delivering
+                  desirable solutions within a quick turnaround and ensuring the highest level of client satisfaction.
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4 text-center">
+              <span class="mb-6 flex justify-center items-center rounded font-bold bg-green-600">
+                <ion-icon size="large" name="flower-outline"></ion-icon>
+              </span>
+              <h3 class="mb-2 text-2xl font-bold font-heading">Vision</h3>
+              <p class="text-gray-500 leading-loose">To strive to become an
+                entity in technology based corporate solutions, capable of demanding
+                unconditional response from the targeted niche</p>
+            </div>
+            <div class="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/3 px-4 text-center">
+              <span class="mb-6 flex rounded font-bold text-center bg-green-600 justify-center items-center">
+                <ion-icon size="large" name="leaf-outline"></ion-icon>
+              </span>
+              <h3 class="mb-2 text-2xl font-bold font-heading">Mission</h3>
+              <p class="text-gray-500 leading-loose">To contribute to forward-looking transformation of the
+                society through software development & application of modern technologies</p>
+            </div>
+            <div class="w-full lg:w-1/3 px-4 text-center">
+              <span class="mb-6 flex justify-center items-center rounded font-bold bg-green-600">
+                <ion-icon size="large" name="rose-outline"></ion-icon>
+              </span>
+              <h3 class="mb-2 text-2xl font-bold font-heading">Goal</h3>
+              <p class="text-gray-500 leading-loose">To deliver products successfully in the market and ultimately
+                achieve business goals</p>
             </div>
           </div>
         </div>
-        <div class="skew skew-bottom mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 0 10"></polygon></svg></div>
-        <div class="skew skew-bottom ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 10 10"></polygon></svg></div>
-      </section>
-        
-      <section><div class="skew skew-top mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 10 0 10"></polygon></svg></div>
-        <div class="skew skew-top ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 10 10 0 10 10"></polygon></svg></div>
-        <div class="py-20 bg-gray-50 overflow-hidden radius-for-skewed">
-          <div class="container mx-auto px-4">
-            <div class="mb-16 text-center mx-auto">
-              <span class="text-green-600 font-bold">OUR PROCESS</span>
-              <h2 class="mb-2 text-4xl lg:text-5xl font-bold font-heading">Concept to Delivery</h2>
+      </div>
+      <div class="skew skew-bottom mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-bottom ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
+        </svg></div>
+    </section>
+
+    <section id="services">
+      <div class="skew skew-top mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-top ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
+        </svg></div>
+      <div class="py-20 bg-gray-50 radius-for-skewed">
+        <div class="container mx-auto px-4">
+          <div class="mb-16 mx-auto text-center">
+            <span class="text-green-600 font-bold">OUR PROFESSIONAL</span>
+            <h2 class="text-4xl lg:text-5xl font-bold font-heading">Service Offerings</h2>
+          </div>
+          <div class="flex flex-wrap -mx-3">
+            <div class="mb-6 w-full lg:w-1/2 px-3">
+              <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
+                <div>
+                  <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded-lg bg-gray-800">
+                    <ion-icon size="large" name="apps-sharp"></ion-icon>
+                </div>
+                <div class="w-full lg:w-2/3">
+                  <h3 class="mb-2 text-2xl font-bold font-heading">Mobile &amp; Web Development</h3>
+                  <p class="text-gray-500">We deliver modern mobile &amp; web apps such as e-commerce sites, single-page
+                    web applications (SPA) &amp; SaaS applications. We guarantee beautiful, user-friendly, apps that
+                    follow latest best practices.</p>
+                </div>
+              </div>
             </div>
-            <div class="relative flex flex-wrap -mx-4 z-0">
-              <img class="h-128 hidden xl:block absolute top-0 right-0 -mt-4 -mr-16" style="z-index: -1;" src="atis-assets/elements/line.svg" alt=""><div class="mb-10 lg:mb-32 w-full md:w-1/2 lg:w-1/3 px-4">
-                <div class="max-w-xs">
-                  <span class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">1</span>
-                  <h3 class="mb-4 text-2xl font-bold font-heading">Strategy Development</h3>
-                  <p class="text-gray-500 leading-loose">Strategy definition for evolving your idea into a successful app/product.</p>
+            <div class="mb-6 w-full lg:w-1/2 px-3">
+              <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
+                <div>
+                  <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded-lg bg-gray-800">
+                    <ion-icon size="large" name="code-working-sharp"></ion-icon>
+                </div>
+                <div class="w-full lg:w-2/3">
+                  <h3 class="mb-2 text-2xl font-bold font-heading">RESTful API's</h3>
+                  <p class="text-gray-500">We build clean &amp; well-structured RESTful APIs. Our APIs are properly
+                    documented in accordance to the OpenAPI 2.0 specifications and implemented with automated tests
+                    coverage of at least 80%.</p>
                 </div>
               </div>
-              <div class="mb-10 lg:mb-32 w-full md:w-1/2 lg:w-1/3 px-4">
-                <div class="max-w-xs">
-                  <span class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">2</span>
-                  <h3 class="mb-4 text-2xl font-bold font-heading">Requirements Gathering, Analysis &amp; Planning</h3>
-                  <p class="text-gray-500 leading-loose">Analysing &amp; planning by defining use cases &amp; capturing detailed functional requirements.</p>
+            </div>
+            <div class="mb-6 lg:mb-0 w-full lg:w-1/2 px-3">
+              <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
+                <div>
+                  <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
+                    <ion-icon size="large" name="bar-chart-sharp"></ion-icon>
+                </div>
+                <div class="w-full lg:w-2/3">
+                  <h3 class="mb-2 text-2xl font-bold font-heading">Data & Information Systems </h3>
+                  <p class="text-gray-500">We design databases for our clients based on their unique needs using both
+                    proprietary software like ORACLE, MySQL, MS SQL and Open Source Software products like PostGre, and
+                    InnoDB.</p>
                 </div>
               </div>
-              <div class="mb-10 lg:mb-32 w-full md:w-1/2 lg:w-1/3 px-4">
-                <div class="max-w-xs">
-                  <span class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">3</span>
-                  <h3 class="mb-4 text-2xl font-bold font-heading">App/Product UI / UX Design</h3>
-                  <p class="text-gray-500 leading-loose">Prototyping app/product by creating excellent user experiences to make your app interactive, intuitive, and user-friendly.</p>
+            </div>
+            <div class="w-full lg:w-1/2 px-3">
+              <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
+                <div>
+                  <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
+                    <ion-icon size="large" name="cloud-upload-sharp"></ion-icon>
+                </div>
+                <div class="w-full lg:w-2/3">
+                  <h3 class="mb-2 text-2xl font-bold font-heading">Cloud Computing</h3>
+                  <p class="text-gray-500">We build &amp; deploy applications &amp; API services to cloud
+                    infrastructures (Digital Ocean, GCP, AWS etc..). By using sensible configurations to ensure
+                    deployments are stable, accessible &amp; easily scalable.</p>
                 </div>
               </div>
-              <div class="mb-10 w-full md:w-1/2 lg:w-1/3 px-4 order-last lg:order-1">
-                <div class="max-w-xs">
-                  <span class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">6</span>
-                  <h3 class="mb-4 text-2xl font-bold font-heading">Maintenance &amp; Support</h3>
-                  <p class="text-gray-500 leading-loose">Provide updates &amp; technical support to maintain a stable, optimised environment, minimise risk, and maximise the return on your investment. Keeping technology current and solutions running smoothly.</p>
+            </div>
+
+            <div class="mt-6 mb-6 lg:mb-0 w-full lg:w-1/2 px-3">
+              <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
+                <div>
+                  <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
+                    <ion-icon size="large" name="git-compare-sharp"></ion-icon>
+                </div>
+                <div class="w-full lg:w-2/3">
+                  <h3 class="mb-2 text-2xl font-bold font-heading">Dev Ops</h3>
+                  <p class="text-gray-500">To facilitate Agile software development, we setup a CI/CD pipeline using
+                    automation & continuous
+                    integration tools to reduce the time spent between development & production. These tools include
+                    GitLab, Ansible, Docker, Travis CI, and Circle CI.</p>
                 </div>
               </div>
-              <div class="mb-10 md:mb-0 w-full md:w-1/2 lg:w-1/3 px-4 order-1 lg:order-0">
-                <div class="max-w-xs">
-                  <span class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">5</span>
-                  <h3 class="mb-4 text-2xl font-bold font-heading">Product Launch &amp; Commissioning</h3>
-                  <p class="text-gray-500 leading-loose">Deployment &amp; release app to native mobile app stores &amp; hosting providers of your choice in compliance with requirements and standards.</p>
+            </div>
+            <div class="w-full lg:w-1/2 px-3 mt-6">
+              <div class="p-6 flex flex-wrap bg-white shadow rounded-lg">
+                <div>
+                  <span class="mb-4 lg:mb-0 mr-6 inline-block p-3 md:p-5 rounded bg-gray-800">
+                    <ion-icon size="large" name="images-sharp"></ion-icon>
+                </div>
+                <div class="w-full lg:w-2/3">
+                  <h3 class="mb-2 text-2xl font-bold font-heading">Graphic Design Services</h3>
+                  <p class="text-gray-500">We provide graphic design & corporate branding services to build your product
+                    and services brands using three different perspectives:
+                    what you don’t know, what you think you know, and what you are willing to know.</p>
                 </div>
               </div>
-              <div class="w-full md:w-1/2 lg:w-1/3 px-4 lg:order-last">
-                <div class="max-w-xs">
-                  <span class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">4</span>
-                  <h3 class="mb-4 text-2xl font-bold font-heading">Quality Assurance</h3>
-                  <p class="text-gray-500 leading-loose">Performing thorough quality assurance (QA) testing during the mobile app development to make applications stable, usable, and secure.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="skew skew-bottom mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-bottom ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
+        </svg></div>
+    </section>
+
+    <section>
+      <div class="skew skew-top mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-top ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
+        </svg></div>
+      <div class="py-20 bg-gray-50 overflow-hidden radius-for-skewed">
+        <div class="container mx-auto px-4">
+          <div class="mb-16 text-center mx-auto">
+            <span class="text-green-600 font-bold">OUR PROCESS</span>
+            <h2 class="mb-2 text-4xl lg:text-5xl font-bold font-heading">Concept to Delivery</h2>
+          </div>
+          <div class="relative flex flex-wrap -mx-4 z-0">
+            <img class="h-128 hidden xl:block absolute top-0 right-0 -mt-4 -mr-16" style="z-index: -1;"
+              src="atis-assets/elements/line.svg" alt="">
+            <div class="mb-10 lg:mb-32 w-full md:w-1/2 lg:w-1/3 px-4">
+              <div class="max-w-xs">
+                <span
+                  class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">1</span>
+                <h3 class="mb-4 text-2xl font-bold font-heading">Strategy Development</h3>
+                <p class="text-gray-500 leading-loose">Strategy definition for evolving your idea into a successful
+                  app/product.</p>
+              </div>
+            </div>
+            <div class="mb-10 lg:mb-32 w-full md:w-1/2 lg:w-1/3 px-4">
+              <div class="max-w-xs">
+                <span
+                  class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">2</span>
+                <h3 class="mb-4 text-2xl font-bold font-heading">Requirements Gathering, Analysis &amp; Planning</h3>
+                <p class="text-gray-500 leading-loose">Analysing &amp; planning by defining use cases &amp; capturing
+                  detailed functional requirements.</p>
+              </div>
+            </div>
+            <div class="mb-10 lg:mb-32 w-full md:w-1/2 lg:w-1/3 px-4">
+              <div class="max-w-xs">
+                <span
+                  class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">3</span>
+                <h3 class="mb-4 text-2xl font-bold font-heading">App/Product UI / UX Design</h3>
+                <p class="text-gray-500 leading-loose">Prototyping app/product by creating excellent user experiences to
+                  make your app interactive, intuitive, and user-friendly.</p>
+              </div>
+            </div>
+            <div class="mb-10 w-full md:w-1/2 lg:w-1/3 px-4 order-last lg:order-1">
+              <div class="max-w-xs">
+                <span
+                  class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">6</span>
+                <h3 class="mb-4 text-2xl font-bold font-heading">Maintenance &amp; Support</h3>
+                <p class="text-gray-500 leading-loose">Provide updates &amp; technical support to maintain a stable,
+                  optimised environment, minimise risk, and maximise the return on your investment. Keeping technology
+                  current and solutions running smoothly.</p>
+              </div>
+            </div>
+            <div class="mb-10 md:mb-0 w-full md:w-1/2 lg:w-1/3 px-4 order-1 lg:order-0">
+              <div class="max-w-xs">
+                <span
+                  class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">5</span>
+                <h3 class="mb-4 text-2xl font-bold font-heading">Product Launch &amp; Commissioning</h3>
+                <p class="text-gray-500 leading-loose">Deployment &amp; release app to native mobile app stores &amp;
+                  hosting providers of your choice in compliance with requirements and standards.</p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 lg:order-last">
+              <div class="max-w-xs">
+                <span
+                  class="mb-4 lg:mb-10 flex w-16 h-16 items-center justify-center bg-green-600 rounded-full font-bold text-white text-2xl">4</span>
+                <h3 class="mb-4 text-2xl font-bold font-heading">Quality Assurance</h3>
+                <p class="text-gray-500 leading-loose">Performing thorough quality assurance (QA) testing during the
+                  mobile app development to make applications stable, usable, and secure.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skew skew-bottom mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-bottom ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
+        </svg></div>
+    </section>
+    <section id="contact">
+      <div class="skew skew-top mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
+        </svg>
+      </div>
+      <div class="skew skew-top ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
+        </svg>
+      </div>
+      <div class="py-20 bg-gray-50 radius-for-skewed">
+        <div class="container mx-auto px-4">
+          <div class="mb-16 max-w-md mx-auto text-center">
+
+            <h2 class="text-4xl lg:text-5xl font-bold font-heading">Contact</h2>
+            <p class="text-gray-500">Have Questions? Hire our services? Let’s talk about it.</p>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
+              <div class="py-12 lg:py-20 rounded bg-white shadow text-center align-items-center">
+                <div class="flex justify-center">
+                  <svg width="50px" height="50px" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 285.63 285.63">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #c3996b;
+                        }
+                      </style>
+                    </defs>
+                    <title>chat</title>
+                    <path class="cls-1"
+                      d="M218.68,70.17C139.94,70.17,75.87,134.24,75.87,213A142,142,0,0,0,98,289.23l-21.4,53.51a9.53,9.53,0,0,0,12.38,12.38l53.5-21.4a142,142,0,0,0,76.25,22.08c78.75,0,142.82-64.07,142.82-142.82S297.43,70.17,218.68,70.17Zm0,266.59a123.05,123.05,0,0,1-69.79-21.59,9.55,9.55,0,0,0-8.92-1l-37.49,15,15-37.49a9.48,9.48,0,0,0-1-8.92,123.76,123.76,0,1,1,102.19,54Zm19-123.78a19,19,0,1,1-19-19A19.06,19.06,0,0,1,237.73,213Zm-57.13,0a19,19,0,1,1-19-19A19.06,19.06,0,0,1,180.6,213Zm114.25,0a19,19,0,1,1-19-19A19.06,19.06,0,0,1,294.85,213Z"
+                      transform="translate(-75.87 -70.17)" />
+                  </svg>
+                </div>
+                <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Message Us</h3>
+                <button id="open"
+                  class="inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-gray-700 text-gray-50 font-bold leading-loose transition duration-200">Show
+                  Message Form</button>
+              </div>
+            </div>
+            <div class="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
+              <div class="py-12 lg:py-20 rounded bg-white shadow text-center">
+                <div class="flex justify-center">
+                  <svg height="50px" width="50px" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 333.82 335.33">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #c3996b;
+                        }
+                      </style>
+                    </defs>
+                    <title>contact</title>
+                    <path class="cls-1"
+                      d="M263.55,402.85a31.08,31.08,0,0,0,35.69-30.45V329.67h0a24.5,24.5,0,0,0-20.55-24.26l-49.31-8.24c-13.09-3-23.43,8.55-32.38,16.05a18.78,18.78,0,0,1-22.23,1.57A128.75,128.75,0,0,1,136.48,276a18.95,18.95,0,0,1,.53-21.7l13.61-18.38A24.66,24.66,0,0,0,155,216.76L146.9,173A24.62,24.62,0,0,0,122.71,153H78.89a30.78,30.78,0,0,0-30.7,33.35c4.65,55.54,35,187.82,215.35,216.55ZM65,171a18.66,18.66,0,0,1,13.88-6.09h43.81a12.63,12.63,0,0,1,12.41,10.31L143.26,219a12.67,12.67,0,0,1-2.26,9.83l-13.61,18.37a31,31,0,0,0-.9,35.45c21.61,30.21,50.73,61.61,78.26,39.76l12.43-10.54A12.53,12.53,0,0,1,227.41,309l49.31,8.23a12.57,12.57,0,0,1,10.54,12.45V372.4h0A19,19,0,0,1,265.43,391C93.4,363.63,64.55,238,60.13,185.3A18.57,18.57,0,0,1,65,171Z"
+                      transform="translate(-48.09 -67.87)" />
+                    <path class="cls-1"
+                      d="M136.74,144.78a6,6,0,0,0,6-6V96a16.28,16.28,0,0,1,.32-3.19L230,160.36l-62.77,44.15a6,6,0,0,0,6.89,9.8l66-46.44a30.36,30.36,0,0,0,32.47,0l84,59.12h0a16.39,16.39,0,0,1-2.79.28H170.88a6,6,0,0,0,0,12H353.8a28.15,28.15,0,0,0,28.11-28.11V96A28.27,28.27,0,0,0,353.8,67.87H158.86A28.27,28.27,0,0,0,130.75,96V138.8a6,6,0,0,0,6,6Zm232.87-52a16.28,16.28,0,0,1,.32,3.19V211.14a15.93,15.93,0,0,1-2.62,8.76l-84.63-59.54Zm-15.81-13A16.07,16.07,0,0,1,363,82.75l-94,73.09-1,.75h0a19,19,0,0,1-23.43-.05L149.67,82.75a16,16,0,0,1,9.19-2.91Z"
+                      transform="translate(-48.09 -67.87)" />
+                  </svg>
+                </div>
+                <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Contacts</h3>
+                <p class="text-gray-400">mail at dzagoo.com</p>
+                <p class="text-gray-400">+675 757 68424</p>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/3 px-4 flex items-stretch">
+              <div class="py-12 lg:py-20 w-full rounded bg-white shadow text-center">
+                <div class="flex justify-center">
+                  <svg heigth="50px" width="50px" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 284.82 307.17">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #c3996b;
+                        }
+                      </style>
+                    </defs>
+                    <title>socials</title>
+                    <path class="cls-1"
+                      d="M105.67,270.26a48.46,48.46,0,0,0,38.48-18.69l99.71,57.55a44.15,44.15,0,0,0-2.2,13.93,49.49,49.49,0,1,0,49.48-49.49,49.23,49.23,0,0,0-41,22l-98.6-56.81a48.18,48.18,0,0,0,.37-35.93L252.29,144.9A49.43,49.43,0,0,0,341,114.84c0-27.12-22.37-49.48-49.86-49.48a49.51,49.51,0,0,0-49.48,49.48,51,51,0,0,0,2.93,16.87L144.15,190a49.4,49.4,0,1,0-38.48,80.27Zm185.47,18A34.82,34.82,0,1,1,256.32,323a35,35,0,0,1,34.82-34.82Zm0-208.2a34.82,34.82,0,1,1-34.82,34.82A35,35,0,0,1,291.14,80ZM105.67,186a34.83,34.83,0,1,1-34.83,34.82A35,35,0,0,1,105.67,186Z"
+                      transform="translate(-56.18 -65.36)" />
+                  </svg>
+                </div>
+                <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Socials</h3>
+                <div class="flex justify-center">
+                  <a class="mr-3" href="#">
+                    <img class="w-8 h-8" src="atis-assets/social/facebook.svg" alt="">
+                  </a>
+                  <a class="mr-3" href="#">
+                    <img class="w-8 h-8" src="atis-assets/social/twitter.svg" alt="">
+                  </a>
+                  <a href="#">
+                    <img class="w-8 h-8" src="atis-assets/social/instagram.svg" alt="">
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="skew skew-bottom mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 0 10"></polygon></svg></div>
-        <div class="skew skew-bottom ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 10 10"></polygon></svg></div>
-      </section>
-      <section id="contact">
-        <div class="skew skew-top mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
-            <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
-          </svg>
-        </div>
-        <div class="skew skew-top ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
-            <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
-          </svg>
-        </div>
-        <div class="py-20 bg-gray-50 radius-for-skewed">
-          <div class="container mx-auto px-4">
-            <div class="mb-16 max-w-md mx-auto text-center">
-              
-              <h2 class="text-4xl lg:text-5xl font-bold font-heading">Contact</h2>
-              <p class="text-gray-500">Got any question? Let’s talk about it.</p>
-            </div>
-            <div class="flex flex-wrap -mx-4">
-              <div class="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
-                <div class="py-12 lg:py-20 rounded bg-white shadow text-center align-items-center">
-                  <div class="flex justify-center">
-                    <svg width="50px"height="50px"id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.63 285.63"><defs><style>.cls-1{fill:#c3996b;}</style></defs><title>chat</title><path class="cls-1" d="M218.68,70.17C139.94,70.17,75.87,134.24,75.87,213A142,142,0,0,0,98,289.23l-21.4,53.51a9.53,9.53,0,0,0,12.38,12.38l53.5-21.4a142,142,0,0,0,76.25,22.08c78.75,0,142.82-64.07,142.82-142.82S297.43,70.17,218.68,70.17Zm0,266.59a123.05,123.05,0,0,1-69.79-21.59,9.55,9.55,0,0,0-8.92-1l-37.49,15,15-37.49a9.48,9.48,0,0,0-1-8.92,123.76,123.76,0,1,1,102.19,54Zm19-123.78a19,19,0,1,1-19-19A19.06,19.06,0,0,1,237.73,213Zm-57.13,0a19,19,0,1,1-19-19A19.06,19.06,0,0,1,180.6,213Zm114.25,0a19,19,0,1,1-19-19A19.06,19.06,0,0,1,294.85,213Z" transform="translate(-75.87 -70.17)"/></svg>
-                  </div>
-                  <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Message Us</h3>
-                    <button id="open"  class="inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-gray-700 text-gray-50 font-bold leading-loose transition duration-200">Show Message Form</button>
-                </div>
-              </div>
-              <div class="mb-8 lg:mb-0 w-full lg:w-1/3 px-4">
-                <div class="py-12 lg:py-20 rounded bg-white shadow text-center">
-                  <div class="flex justify-center">
-                    <svg height="50px" width="50px" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333.82 335.33"><defs><style>.cls-1{fill:#c3996b;}</style></defs><title>contact</title><path class="cls-1" d="M263.55,402.85a31.08,31.08,0,0,0,35.69-30.45V329.67h0a24.5,24.5,0,0,0-20.55-24.26l-49.31-8.24c-13.09-3-23.43,8.55-32.38,16.05a18.78,18.78,0,0,1-22.23,1.57A128.75,128.75,0,0,1,136.48,276a18.95,18.95,0,0,1,.53-21.7l13.61-18.38A24.66,24.66,0,0,0,155,216.76L146.9,173A24.62,24.62,0,0,0,122.71,153H78.89a30.78,30.78,0,0,0-30.7,33.35c4.65,55.54,35,187.82,215.35,216.55ZM65,171a18.66,18.66,0,0,1,13.88-6.09h43.81a12.63,12.63,0,0,1,12.41,10.31L143.26,219a12.67,12.67,0,0,1-2.26,9.83l-13.61,18.37a31,31,0,0,0-.9,35.45c21.61,30.21,50.73,61.61,78.26,39.76l12.43-10.54A12.53,12.53,0,0,1,227.41,309l49.31,8.23a12.57,12.57,0,0,1,10.54,12.45V372.4h0A19,19,0,0,1,265.43,391C93.4,363.63,64.55,238,60.13,185.3A18.57,18.57,0,0,1,65,171Z" transform="translate(-48.09 -67.87)"/><path class="cls-1" d="M136.74,144.78a6,6,0,0,0,6-6V96a16.28,16.28,0,0,1,.32-3.19L230,160.36l-62.77,44.15a6,6,0,0,0,6.89,9.8l66-46.44a30.36,30.36,0,0,0,32.47,0l84,59.12h0a16.39,16.39,0,0,1-2.79.28H170.88a6,6,0,0,0,0,12H353.8a28.15,28.15,0,0,0,28.11-28.11V96A28.27,28.27,0,0,0,353.8,67.87H158.86A28.27,28.27,0,0,0,130.75,96V138.8a6,6,0,0,0,6,6Zm232.87-52a16.28,16.28,0,0,1,.32,3.19V211.14a15.93,15.93,0,0,1-2.62,8.76l-84.63-59.54Zm-15.81-13A16.07,16.07,0,0,1,363,82.75l-94,73.09-1,.75h0a19,19,0,0,1-23.43-.05L149.67,82.75a16,16,0,0,1,9.19-2.91Z" transform="translate(-48.09 -67.87)"/></svg>
-                  </div>
-                  <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Contacts</h3>
-                  <p class="text-gray-400">mail at dzagoo.com</p>
-                  <p class="text-gray-400">+675 757 68424</p>
-                </div>
-              </div>
-              <div class="w-full lg:w-1/3 px-4 flex items-stretch">
-                <div class="py-12 lg:py-20 w-full rounded bg-white shadow text-center">
-                  <div class="flex justify-center">
-                    <svg heigth="50px" width="50px"id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284.82 307.17"><defs><style>.cls-1{fill:#c3996b;}</style></defs><title>socials</title><path class="cls-1" d="M105.67,270.26a48.46,48.46,0,0,0,38.48-18.69l99.71,57.55a44.15,44.15,0,0,0-2.2,13.93,49.49,49.49,0,1,0,49.48-49.49,49.23,49.23,0,0,0-41,22l-98.6-56.81a48.18,48.18,0,0,0,.37-35.93L252.29,144.9A49.43,49.43,0,0,0,341,114.84c0-27.12-22.37-49.48-49.86-49.48a49.51,49.51,0,0,0-49.48,49.48,51,51,0,0,0,2.93,16.87L144.15,190a49.4,49.4,0,1,0-38.48,80.27Zm185.47,18A34.82,34.82,0,1,1,256.32,323a35,35,0,0,1,34.82-34.82Zm0-208.2a34.82,34.82,0,1,1-34.82,34.82A35,35,0,0,1,291.14,80ZM105.67,186a34.83,34.83,0,1,1-34.83,34.82A35,35,0,0,1,105.67,186Z" transform="translate(-56.18 -65.36)"/></svg>
-                  </div>
-                  <h3 class="mb-8 lg:mb-20 text-3xl font-bold font-heading">Socials</h3>
-                  <div class="flex justify-center">
-                    <a class="mr-3" href="#">
-                      <img class="w-8 h-8" src="atis-assets/social/facebook.svg" alt="">
-                    </a>
-                    <a class="mr-3" href="#">
-                      <img class="w-8 h-8" src="atis-assets/social/twitter.svg" alt="">
-                    </a>
-                    <a href="#">
-                      <img class="w-8 h-8" src="atis-assets/social/instagram.svg" alt="">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="skew skew-bottom mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
-            <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
-          </svg>
-        </div>
-        <div class="skew skew-bottom ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
-            <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
-          </svg>
-        </div>
-      </section>
-        <!-- Overlay element -->
+      </div>
+      <div class="skew skew-bottom mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
+        </svg>
+      </div>
+      <div class="skew skew-bottom ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
+        </svg>
+      </div>
+    </section>
+    <!-- Overlay element -->
     <div id="overlay" class="fixed hidden z-40 w-screen h-screen inset-0 bg-gray-900 bg-opacity-60"></div>
-<div id="dialog"  aria-hidden="true" class="align-items-center hidden mx-auto flex items-center justify-center fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
-  <div class="relative p-4 w-full max-w-md h-full md:h-auto">
-      <!-- Modal content -->
-      <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-          <button id="close"type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white">
-              <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-              <span class="sr-only">Close modal</span>
+    <div id="dialog" aria-hidden="true"
+      class="align-items-center hidden mx-auto flex items-center justify-center fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
+      <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+          <button id="close" type="button"
+            class="absolute top-3 left-3.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white">
+            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span class="sr-only">Close modal</span>
           </button>
           <div class="py-6 px-6 lg:px-8">
-              <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Send Quick Message</h3>
-              <form class="space-y-6" action="https://mis.fpda.com.pg/contact.php" method="post">
-                <div>
-                  <label for="subject" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-                  <input type="text" name="subject" id="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Subject" required>
+            <h3 class="mb-3 text-xl font-medium text-gray-900 dark:text-white">Send Quick Message</h3>
+            <form class="space-y-6" action="https://mis.fpda.com.pg/contact.php" method="post">
+              <div>
+                <!-- <label for="subject" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label> -->
+                <input type="text" name="subject" id="subject"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                  placeholder="Subject" required>
               </div>
               <div>
-                  <label for="name" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Full Name</label>
-                  <input type="text" name="name" id="name" placeholder="John Doe" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
+                <!-- <label for="name" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Full Name</label> -->
+                <input type="text" name="name" id="name" placeholder="John Doe"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                  required>
               </div>
               <div>
-                <label for="number" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Phone Number</label>
-                <input type="number" name="number" id="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Phone Number" required>
-            </div>
-                  <div>
-                      <label for="email" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Email Address</label>
-                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required>
-                  </div>
-                  <div>
-                    <label for="message" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
-                    <textarea class="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-gray-100 rounded outline-none" name="message"type="text" placeholder="Message...">
+                <!-- <label for="number" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Phone Number</label> -->
+                <input type="number" name="number" id="number"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                  placeholder="Phone Number" required>
+              </div>
+              <div>
+                <!-- <label for="email" class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Email Address</label> -->
+                <input type="email" name="email" id="email"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                  placeholder="name@company.com" required>
+              </div>
+              <div>
+                <label for="message"
+                  class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
+                <textarea
+                  class="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-gray-100 rounded outline-none"
+                  name="message" type="text" placeholder="Message...">
                     </textarea>
-                  </div>
-                  <button type="submit" class="w-full focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-green-600 hover:bg-gray-700 text-gray-50">Send Message</button>
-              </form>
+              </div>
+              <button type="submit"
+                class="w-full focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-green-600 hover:bg-gray-700 text-gray-50">Send
+                Message</button>
+            </form>
           </div>
+        </div>
       </div>
-  </div>
-</div> 
-      <section>
-        <div class="skew skew-top mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 10 0 10"></polygon></svg></div>
-        <div class="skew skew-top ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 10 10 0 10 10"></polygon></svg></div>
-        <div class="py-20 bg-gray-900 radius-for-skewed">
-          <div class="container mx-auto px-4">
-            <div class="pb-12 flex flex-wrap items-center justify-between border-b border-gray-800">
-              <div class="w-full lg:w-1/2 mb-12 lg:mb-4">
-                <a class="inline-block text-3xl font-bold leading-none" href="#">
-                  <img class="h-12" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
-                  <p class="text-gray-400 ">Dzagoo (pronounced: ZA-GU) is a digital technologies solutions provider in Papua New Guinea.<br>Dzagoo (Za-Gu) is <a href="https://pnglanguages.sil.org/resources/dictionaries/kbq"><u>Kamano/Kafe Language</u></a> (EHP) word for Sweet Potato (Kaukau).</p>
-              </div>
-              <div class="w-full lg:w-auto">
-                <ul class="flex flex-wrap lg:space-x-5 items-center"><li class="w-full md:w-auto mb-2 md:mb-0"><a class="lg:text-sm text-gray-400 hover:text-gray-300" href="#">Home</a></li>
-                  <li class="hidden md:block">
-                    <svg class="mx-4 w-4 h-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
-                  <li class="w-full md:w-auto mb-2 md:mb-0"><a class="lg:text-sm text-gray-400 hover:text-gray-300" href="#about">About</a></li>
-                  <li class="hidden md:block">
-                    <svg class="mx-4 w-4 h-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
-                  <li class="w-full md:w-auto mb-2 md:mb-0"><a class="lg:text-sm text-gray-400 hover:text-gray-300" href="#services">Services</a></li>
-                </ul></div>
+    </div>
+    <section>
+      <div class="skew skew-top mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 10 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-top ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 10 10 0 10 10"></polygon>
+        </svg></div>
+      <div class="py-20 bg-gray-900 radius-for-skewed">
+        <div class="container mx-auto px-4">
+          <div class="pb-12 flex flex-wrap items-center justify-between border-b border-gray-800">
+            <div class="w-full lg:w-1/2 mb-12 lg:mb-4">
+              <a class="inline-block text-3xl font-bold leading-none" href="#">
+                <img class="h-12" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto"></a>
+              <p class="text-gray-400 ">Dzagoo (pronounced: ZA-GU) is a digital technologies solutions provider in Papua
+                New Guinea.<br>Dzagoo (Za-Gu) is <a
+                  href="https://pnglanguages.sil.org/resources/dictionaries/kbq"><u>Kamano/Kafe Language</u></a> (EHP)
+                word for Sweet Potato (Kaukau).</p>
             </div>
-            <div class="mt-8 flex flex-wrap justify-between items-center">
-              <p class="order-last text-sm text-gray-400">Dzagoo Digital Technologies © 2022. Designed for Dzagoo by <a href="https://glenh.me"><u>GlenH</u></a></p>
-              <div class="mb-4 lg:mb-0 order-first lg:order-last">
-                <a class="inline-block mr-2 p-2 bg-gray-800 hover:bg-gray-600 rounded" href="https://www.facebook.com/dzagoodigital">
-                  <img src="atis-assets/social/facebook.svg"></a>
-                <a class="inline-block mr-2 p-2 bg-gray-800 hover:bg-gray-700 rounded" href="#">
-                  <img src="atis-assets/social/twitter.svg"></a>
-                <a class="inline-block mr-2 p-2 bg-gray-800 hover:bg-gray-700 rounded" href="#">
-                  <img src="atis-assets/social/instagram.svg"></a>
-              </div>
+            <div class="w-full lg:w-auto">
+              <ul class="flex flex-wrap lg:space-x-5 items-center">
+                <li class="w-full md:w-auto mb-2 md:mb-0"><a class="lg:text-sm text-gray-400 hover:text-gray-300"
+                    href="#">Home</a></li>
+                <li class="hidden md:block">
+                  <svg class="mx-4 w-4 h-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewbox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+                    </path>
+                  </svg></li>
+                <li class="w-full md:w-auto mb-2 md:mb-0"><a class="lg:text-sm text-gray-400 hover:text-gray-300"
+                    href="#about">About</a></li>
+                <li class="hidden md:block">
+                  <svg class="mx-4 w-4 h-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewbox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z">
+                    </path>
+                  </svg></li>
+                <li class="w-full md:w-auto mb-2 md:mb-0"><a class="lg:text-sm text-gray-400 hover:text-gray-300"
+                    href="#services">Services</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-wrap justify-between items-center">
+            <p class="order-last text-sm text-gray-400">Dzagoo Digital Technologies © 2022. Designed for Dzagoo by <a
+                href="https://glenh.me"><u>GlenH</u></a></p>
+            <div class="mb-4 lg:mb-0 order-first lg:order-last">
+              <a class="inline-block mr-2 p-2 bg-gray-800 hover:bg-gray-600 rounded"
+                href="https://www.facebook.com/dzagoodigital">
+                <img src="atis-assets/social/facebook.svg"></a>
+              <a class="inline-block mr-2 p-2 bg-gray-800 hover:bg-gray-700 rounded" href="#">
+                <img src="atis-assets/social/twitter.svg"></a>
+              <a class="inline-block mr-2 p-2 bg-gray-800 hover:bg-gray-700 rounded" href="#">
+                <img src="atis-assets/social/instagram.svg"></a>
             </div>
           </div>
         </div>
-        <div class="skew skew-bottom mr-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 0 10"></polygon></svg></div>
-        <div class="skew skew-bottom ml-for-radius">
-          <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none"><polygon fill="currentColor" points="0 0 10 0 10 10"></polygon></svg></div>
-      </section>
-    </div>
+      </div>
+      <div class="skew skew-bottom mr-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
+        </svg></div>
+      <div class="skew skew-bottom ml-for-radius">
+        <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-900" viewbox="0 0 10 10" preserveaspectratio="none">
+          <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
+        </svg></div>
+    </section>
+  </div>
 
-        <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script async type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
- 
-       <!-- Javascript code -->
-       <script>
-        var openButton = document.getElementById('open');
-        var dialog = document.getElementById('dialog');
-        var closeButton = document.getElementById('close');
-        var overlay = document.getElementById('overlay');
 
-        // show the overlay and the dialog
-        openButton.addEventListener('click', function () {
-            dialog.classList.remove('hidden');
-            overlay.classList.remove('hidden');
-        });
+  <!-- Javascript code -->
+  <script>
+    var openButton = document.getElementById('open');
+    var dialog = document.getElementById('dialog');
+    var closeButton = document.getElementById('close');
+    var overlay = document.getElementById('overlay');
 
-        // hide the overlay and the dialog
-        closeButton.addEventListener('click', function () {
-            dialog.classList.add('hidden');
-            overlay.classList.add('hidden');
-        });
-    </script>
-    <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
-      
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
+    // show the overlay and the dialog
+    openButton.addEventListener('click', function () {
+      dialog.classList.remove('hidden');
+      overlay.classList.remove('hidden');
+    });
+
+    // hide the overlay and the dialog
+    closeButton.addEventListener('click', function () {
+      dialog.classList.add('hidden');
+      overlay.classList.add('hidden');
+    });
+  </script>
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
       }
-      
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
-  </body>
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+  <script>
+    var loader = document.getElementById("preloader")
+
+    window.addEventListener("load", function () {
+      loader.style.display = "none"
+    })
+  </script>
+</body>
+
 </html>
-

@@ -47,9 +47,9 @@
     }
 
     #preloader {
-      background: #2a2826 url(images/loader.gif) no-repeat center;
+      background: #2a2826 url(images/load.gif) no-repeat center;
       height: 100vh;
-      background-size: 30%;
+      background-size: 20%;
       width: 100%;
       position: fixed;
       z-index: 100;
@@ -601,7 +601,7 @@
               </div>
               <div>
                
-                <input type="text" name="name" id="name" placeholder="John Doe"
+                <input type="text" name="name" id="name" placeholder="Full Name or Company Name"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                   required>
               </div>
@@ -615,12 +615,12 @@
                
                 <input type="email" name="email" id="email"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                  placeholder="name@company.com" required>
+                  placeholder="Email Address" required>
               </div>
               <div>
                 <label for="message"
                   class="block mb-1 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
-                <textarea
+                <textarea form="contactForm"
                   class="w-full h-24 p-4 text-xs font-semibold leading-none resize-none bg-gray-100 rounded outline-none"
                   name="message" type="text" placeholder="Message...">
                     </textarea>

@@ -759,9 +759,9 @@
       loader.classList.add("loader--hidden");
 
       loader.addEventListener("transitionend", () => {
-        document.removeChild(loader);
-      })
-    })
+        loader.remove(loader);
+      });
+    });
   </script>
   
   <script>
